@@ -1,9 +1,11 @@
-import './App.css';
+import './App.scss';
 import {Work, Skills, Footer, About, Header, Testimonial} from "./container";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
+        {/*<Navbar/>*/}
         <Header />
         <About />
         <Work />
