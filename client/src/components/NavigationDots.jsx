@@ -1,12 +1,14 @@
 import React from "react";
 
-const NavigationDots = ({slides, activeIndex}) => {
+const NavigationDots = ({active}) => {
     return (
-        <div className="navigation-dots">
-            {slides.map((slide, index) => (
-                <div
-                    key={slide + index}
-                    className={`dot ${index === activeIndex && "active"}`}
+        <div className="app__navigation">
+            {['home', 'about', 'work', 'skills', 'testimonial', 'contact'].map((item, index) => (
+                <a
+                    href={`#${item}`}
+                    key={item + index}
+                    className="app__navigation-dot"
+                    style={active === item ? { backgroundColor: '#313BAC' } : {}}
                 />
             ))}
         </div>
