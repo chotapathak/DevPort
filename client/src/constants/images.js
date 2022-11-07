@@ -18,6 +18,9 @@ import sass from '../assets/sass.png';
 import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
 
+import heroDev from '../assets/heroDev.png'
+import dev from '../assets/dev.png'
+import solidity from '../assets/solidity.svg'
 import prime from '../assets/prime.png';
 import moose from '../assets/moose.png';
 import about01 from '../assets/about01.png';
@@ -38,6 +41,9 @@ import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
 export default {
+    dev,
+    heroDev,
+    solidity,
     prime,
     email,
     mobile,
@@ -72,5 +78,4 @@ export default {
     nb,
     skype,
     spotify,
-    moose,
 };
